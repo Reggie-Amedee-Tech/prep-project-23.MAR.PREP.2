@@ -18,7 +18,6 @@ const WeatherByHourData = (results) => {
                 console.log(err.message)
             })
 
-
     }, [cityName, date, timeOption])
 
     useEffect(() => {
